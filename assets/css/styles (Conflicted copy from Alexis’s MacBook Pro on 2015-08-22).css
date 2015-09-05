@@ -1,0 +1,779 @@
+/* line 4, ../sass/styles.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/styles.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 14, ../sass/styles.scss */
+body {
+  background: #f8f8f8;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #576366;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+/* line 25, ../sass/styles.scss */
+.navbar {
+  background: white;
+}
+
+/* line 29, ../sass/styles.scss */
+.menu-txt {
+  font-size: 13px;
+}
+
+/* line 33, ../sass/styles.scss */
+a.active {
+  color: #77bde1 !important;
+}
+
+/* line 39, ../sass/styles.scss */
+h1, h2, h3, h4 {
+  font-family: "Sintony", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 45, ../sass/styles.scss */
+a:focus {
+  outline: 1px dashed red;
+}
+
+/* line 51, ../sass/styles.scss */
+.btn-sign-in {
+  background-color: #77bde1;
+  color: white;
+  width: 130px;
+  border-radius: 3px;
+}
+
+/* line 61, ../sass/styles.scss */
+.navbar-brand img {
+  display: block;
+  width: 124px;
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 70, ../sass/styles.scss */
+  .navbar-brand img {
+    display: block;
+    width: 98px;
+    height: 35px;
+  }
+}
+/* line 80, ../sass/styles.scss */
+.home-header {
+  background: transparent url("../img/home-hero-img.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 87, ../sass/styles.scss */
+.home-header .img-holder {
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+}
+/* line 95, ../sass/styles.scss */
+.home-header .tnw-badge {
+  background: transparent url("../img/logos/badge_boost-border.png") 50% 50% no-repeat;
+  position: absolute;
+  bottom: 90%;
+  left: 85%;
+  display: block;
+  overflow: hidden;
+  text-indent: -999999px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+}
+/* line 111, ../sass/styles.scss */
+.home-header .tnw-badge:hover {
+  background: transparent url("../img/logos/badge_boost-border.png") 50% 50% no-repeat;
+  bottom: 92%;
+}
+/* line 115, ../sass/styles.scss */
+.home-header img {
+  display: block;
+}
+/* line 119, ../sass/styles.scss */
+.home-header h1 {
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-size: 50px;
+  line-height: 1.3;
+  color: white;
+  margin-top: 130px;
+}
+/* line 127, ../sass/styles.scss */
+.home-header h3 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+}
+/* line 133, ../sass/styles.scss */
+.home-header .btn-learnmore {
+  background: rgba(255, 255, 255, 0.15) url("../img/icons/play.png") 10px 50% no-repeat;
+  background-size: 28px 28px;
+  display: block;
+  width: 185px;
+  line-height: 50px;
+  margin-top: 25px;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+}
+/* line 149, ../sass/styles.scss */
+.home-header a:hover {
+  background: #77bde1 url("../img/icons/play.png") 10px 50% no-repeat;
+  background-size: 28px 28px;
+  text-decoration: none;
+  border-color: #77bde1;
+}
+/* line 155, ../sass/styles.scss */
+.home-header a:active {
+  background: #2a2a2a url("../img/icons/play.png") 10px 50% no-repeat;
+  background-size: 28px 28px;
+  text-decoration: none;
+  border-color: #2a2a2a;
+}
+
+@media (max-width: 767px) {
+  /* line 165, ../sass/styles.scss */
+  .home-header {
+    margin-top: 80px;
+  }
+  /* line 167, ../sass/styles.scss */
+  .home-header h1 {
+    font-weight: 400;
+    letter-spacing: -1px;
+    font-size: 35px;
+    line-height: 1.3;
+    color: white;
+    margin-top: 30px;
+  }
+  /* line 175, ../sass/styles.scss */
+  .home-header h3 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+}
+/* line 184, ../sass/styles.scss */
+.heading-bar {
+  width: 40%;
+  height: 8px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+
+/* line 192, ../sass/styles.scss */
+.how-it-works {
+  background: white;
+  padding: 50px 0;
+}
+/* line 196, ../sass/styles.scss */
+.how-it-works .heading-bar {
+  background-color: #e2e2e2;
+}
+/* line 199, ../sass/styles.scss */
+.how-it-works .row {
+  margin-top: 35px;
+}
+/* line 202, ../sass/styles.scss */
+.how-it-works img {
+  display: block;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+}
+/* line 208, ../sass/styles.scss */
+.how-it-works p {
+  padding: 0 15px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 214, ../sass/styles.scss */
+.how-it-works h1 {
+  color: #77bde1;
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 220, ../sass/styles.scss */
+.how-it-works h3 {
+  color: #77bde1;
+  font-size: 20px;
+}
+
+/* line 227, ../sass/styles.scss */
+.features {
+  background: #77bde1;
+  padding: 50px 0;
+}
+/* line 231, ../sass/styles.scss */
+.features .heading-bar {
+  background-color: #4f96ba;
+}
+/* line 234, ../sass/styles.scss */
+.features .row {
+  margin-top: 50px;
+}
+/* line 238, ../sass/styles.scss */
+.features p {
+  padding: 0 15px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 245, ../sass/styles.scss */
+.features h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+/* line 250, ../sass/styles.scss */
+.features h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+}
+/* line 255, ../sass/styles.scss */
+.features h3 {
+  color: #dceaf1;
+  font-size: 20px;
+}
+
+/* line 264, ../sass/styles.scss */
+.tryit {
+  background: white;
+  padding: 50px 0;
+}
+/* line 268, ../sass/styles.scss */
+.tryit .heading-bar {
+  background-color: #e2e2e2;
+}
+/* line 271, ../sass/styles.scss */
+.tryit .row {
+  margin-top: 50px;
+}
+/* line 275, ../sass/styles.scss */
+.tryit p {
+  padding: 0 15px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 281, ../sass/styles.scss */
+.tryit h1 {
+  color: #77bde1;
+  font-size: 32px;
+  font-weight: 400;
+}
+/* line 286, ../sass/styles.scss */
+.tryit h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+}
+/* line 291, ../sass/styles.scss */
+.tryit h3 {
+  color: white;
+  font-size: 20px;
+}
+
+/* line 297, ../sass/styles.scss */
+.ticket-layout {
+  margin-top: 15px;
+  padding: 25px;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+}
+/* line 302, ../sass/styles.scss */
+.ticket-layout ul, .ticket-layout ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 307, ../sass/styles.scss */
+.ticket-layout ol > li {
+  display: inline;
+}
+/* line 310, ../sass/styles.scss */
+.ticket-layout h2 {
+  color: #e3221b;
+}
+/* line 313, ../sass/styles.scss */
+.ticket-layout p {
+  font-size: 20px;
+  text-align: left;
+  padding: 0;
+  margin: 30px 0;
+}
+
+/* line 324, ../sass/styles.scss */
+.industries {
+  background: #2a2a2a;
+  padding: 50px 0;
+  border-bottom: 1px solid #363636;
+}
+/* line 329, ../sass/styles.scss */
+.industries .heading-bar {
+  background-color: #363636;
+}
+/* line 332, ../sass/styles.scss */
+.industries .row {
+  margin-top: 50px;
+}
+/* line 336, ../sass/styles.scss */
+.industries p {
+  padding: 0 15px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 343, ../sass/styles.scss */
+.industries h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+/* line 348, ../sass/styles.scss */
+.industries h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+}
+/* line 353, ../sass/styles.scss */
+.industries h3 {
+  color: white;
+  font-size: 20px;
+}
+
+/* line 360, ../sass/styles.scss */
+.head {
+  margin-top: 90px;
+  padding: 40px 0;
+  background: #77bde1;
+  color: #dceaf1;
+}
+/* line 365, ../sass/styles.scss */
+.head .heading-bar-subpages {
+  background-color: #6ba7c5;
+  border: 0;
+  width: 100%;
+  height: 8px;
+  margin-top: 25px;
+  border-radius: 6px;
+}
+/* line 373, ../sass/styles.scss */
+.head .lead {
+  font-size: 28px;
+}
+/* line 376, ../sass/styles.scss */
+.head h1 {
+  color: white;
+}
+/* line 379, ../sass/styles.scss */
+.head h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+/* line 383, ../sass/styles.scss */
+.head h4 {
+  font-size: 20px;
+}
+
+/* line 389, ../sass/styles.scss */
+.team img {
+  display: block;
+  padding: 10%;
+}
+/* line 393, ../sass/styles.scss */
+.team h2, .team h3 {
+  color: #77bde1;
+  margin: 0;
+}
+/* line 397, ../sass/styles.scss */
+.team p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 405, ../sass/styles.scss */
+.contact-content {
+  height: 100vh;
+  padding: 150px 0;
+  margin-bottom: -50px;
+}
+/* line 409, ../sass/styles.scss */
+.contact-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 414, ../sass/styles.scss */
+.contact-content ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 424, ../sass/styles.scss */
+#contact {
+  padding: 0;
+  margin: 40px 0;
+}
+
+/* line 429, ../sass/styles.scss */
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 437, ../sass/styles.scss */
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+/* line 446, ../sass/styles.scss */
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #77bde1;
+}
+
+/* line 453, ../sass/styles.scss */
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+/* line 459, ../sass/styles.scss */
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 30%;
+  border: none;
+  border-radius: 25px;
+  background: #0CF;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* line 471, ../sass/styles.scss */
+#contact button[type="submit"]:hover {
+  background: #09C;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 478, ../sass/styles.scss */
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* line 480, ../sass/styles.scss */
+#contact input:focus, #contact textarea:focus {
+  outline: 0;
+  border: 1px solid #77bde1;
+}
+
+/* line 484, ../sass/styles.scss */
+::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+/* line 487, ../sass/styles.scss */
+:-moz-placeholder {
+  color: #ccc;
+}
+
+/* line 490, ../sass/styles.scss */
+::-moz-placeholder {
+  color: #ccc;
+}
+
+/* line 493, ../sass/styles.scss */
+:-ms-input-placeholder {
+  color: #ccc;
+}
+
+/* line 499, ../sass/styles.scss */
+.pricing-page {
+  margin-top: 90px;
+  padding: 40px 0;
+}
+/* line 502, ../sass/styles.scss */
+.pricing-page .feature-heading {
+  background: transparent;
+}
+/* line 505, ../sass/styles.scss */
+.pricing-page .panel-heading {
+  display: block;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #363636;
+  color: white;
+}
+/* line 513, ../sass/styles.scss */
+.pricing-page .h3-features {
+  margin-top: 193px;
+}
+/* line 516, ../sass/styles.scss */
+.pricing-page .footer-cat {
+  display: block;
+  line-height: 40px;
+  background: #363636;
+  text-align: center;
+  color: white;
+}
+
+/* line 528, ../sass/styles.scss */
+footer {
+  background: #2a2a2a;
+  color: white;
+  width: 100%;
+}
+/* line 533, ../sass/styles.scss */
+footer .footer-wrapper {
+  background: white;
+  color: #576366;
+  padding-top: 15px;
+}
+/* line 537, ../sass/styles.scss */
+footer .footer-wrapper img {
+  float: left;
+}
+/* line 541, ../sass/styles.scss */
+footer .copy-right {
+  line-height: 50px;
+}
+
+/* line 549, ../sass/styles.scss */
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 555, ../sass/styles.scss */
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 563, ../sass/styles.scss */
+.vertical-align > [class^="col-"] > div,
+.vertical-align > [class*=" col-"] > div {
+  /* flex: 1; */
+  flex-grow: 1;
+}
+
+/*Spacers*/
+/* line 571, ../sass/styles.scss */
+.spacer5 {
+  height: 5px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 572, ../sass/styles.scss */
+.spacer10 {
+  height: 10px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 573, ../sass/styles.scss */
+.spacer15 {
+  height: 15px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 574, ../sass/styles.scss */
+.spacer20 {
+  height: 20px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 575, ../sass/styles.scss */
+.spacer25 {
+  height: 25px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 576, ../sass/styles.scss */
+.spacer30 {
+  height: 30px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 577, ../sass/styles.scss */
+.spacer30_hide {
+  height: 30px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 578, ../sass/styles.scss */
+.spacer35 {
+  height: 35px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 579, ../sass/styles.scss */
+.spacer40 {
+  height: 40px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 580, ../sass/styles.scss */
+.spacer45 {
+  height: 45px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 581, ../sass/styles.scss */
+.spacer50 {
+  height: 50px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 582, ../sass/styles.scss */
+.spacer80 {
+  height: 80px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 583, ../sass/styles.scss */
+.spacer90 {
+  height: 90px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 584, ../sass/styles.scss */
+.spacer100 {
+  height: 100px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 585, ../sass/styles.scss */
+.spacer200 {
+  height: 200px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
