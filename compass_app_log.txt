@@ -1499,3 +1499,24 @@ Load paths:
 2015-09-15 20:02:52 overwrite assets/css/styles.css 
 2015-09-15 20:02:59 overwrite assets/css/styles.css 
 2015-09-15 20:03:06 overwrite assets/css/styles.css 
+2015-09-15 20:12:36 overwrite assets/css/styles.css 
+2015-09-15 20:12:46 overwrite assets/css/styles.css 
+2015-09-15 20:56:23 overwrite assets/css/styles.css 
+2015-09-15 20:57:19 overwrite assets/css/styles.css 
+2015-09-15 20:57:27 overwrite assets/css/styles.css 
+2015-09-15 20:57:34 overwrite assets/css/styles.css 
+2015-09-15 20:57:47 overwrite assets/css/styles.css 
+2015-09-15 20:57:57 overwrite assets/css/styles.css 
+2015-09-15 20:58:07 overwrite assets/css/styles.css 
+2015-09-15 20:58:51 overwrite assets/css/styles.css 
+2015-09-15 20:59:09 overwrite assets/css/styles.css 
+2015-09-15 20:59:42 overwrite assets/css/styles.css 
+2015-09-15 20:59:50 overwrite assets/css/styles.css 
+2015-09-15 21:02:11 overwrite assets/css/styles.css 
+2015-09-15 21:02:34 overwrite assets/css/styles.css 
+2015-09-15 21:08:03 overwrite assets/css/styles.css 
+2015-09-15 21:11:07 overwrite assets/css/styles.css 
+2015-09-15 21:11:11     error assets/sass/styles.scss (Line 792: Undefined variable: "$grayDarker".)
+2015-09-15 21:11:11 overwrite assets/css/styles.css 
+2015-09-15 21:11:18 overwrite assets/css/styles.css 
+2015-09-15 21:13:58 overwrite assets/css/styles.css 

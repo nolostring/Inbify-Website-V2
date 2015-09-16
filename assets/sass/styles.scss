@@ -46,6 +46,26 @@ h1,h2,h3,h4{
 	padding: 0;
 }
 
+.breadcrumb {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumb li {
+	display: inline-block;
+	font-size: 13px;
+}
+.breadcrumb a {
+	color: $white;
+	text-decoration: underline;
+}
+.breadcrumb a:hover {
+	text-decoration: none;
+}
+.breadcrumb>.active {color: $white;}
+.breadcrumb>li+li:before {color: $white; content: "\002F\00a0";}
+
+
 // Buttons
 .btn-sign-in{
 	background-color:$blue;
@@ -554,8 +574,8 @@ fieldset {
 	cursor:pointer;
 	width:30%;
 	border:none;
-	border-radius: 25px;
-	background:#0CF;
+	border-radius: 3px;
+	background:$blue;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -765,6 +785,11 @@ fieldset {
 	display: block;
 	width: 80px;
 	height: 80px;
+}
+
+//Video Pages
+.video-wrapper{
+	background: $gray;
 }
 
 
