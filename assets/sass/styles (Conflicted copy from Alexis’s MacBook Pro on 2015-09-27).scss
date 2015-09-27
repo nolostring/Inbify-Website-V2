@@ -252,7 +252,7 @@ h1,h2,h3,h4{
 
 @media (max-width: 600px){
 	.heading-bar{
-		width: 60%;
+		width: 80%;
 	}
 }
 
@@ -486,7 +486,7 @@ h1,h2,h3,h4{
 	.heading-bar-subpages{
 		background-color: $grayLight;
 		border: 0;
-		width: 60%;
+		width: 80%;
 		height: 8px;
 		margin: 25px auto;
 		border-radius: 6px;
@@ -505,22 +505,11 @@ h1,h2,h3,h4{
 	}
 }
 
-.mision-vision{
-    background: $gray;
-    color: $white;
-    text-align: left;
-    .heading-bar{
-        width: 100%;
-        display: block;
-        background: $grayLight; 
-    }
-}
-
 .clients{
 	.heading-bar-subpages{
 		background-color: $grayLight;
 		border: 0;
-		width: 60%;
+		width: 80%;
 		height: 8px;
 		margin: 25px auto;
 		border-radius: 6px;
@@ -647,9 +636,6 @@ fieldset {
 		text-align: center;
 		color: $white;
 	}
-    li:first-child{
-        border: none;
-    }
 }
 
 
@@ -847,11 +833,7 @@ fieldset {
     a{
         display: block;
         position: relative;
-        padding: 3rem 0;
-        border-top: 1px solid $grayLight;
-    }
-    a:first-child{
-        border: none;
+        padding: 4rem 0;
     }
     .btn-more{
         background: $grayLight;
